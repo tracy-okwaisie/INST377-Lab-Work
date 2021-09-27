@@ -82,6 +82,4 @@ document.addEventListener('DOMContentLoaded' , () => {
         ground.classList.add('ground')
         ground.classList.remove('ground-moving')
     }
-
-
 })
