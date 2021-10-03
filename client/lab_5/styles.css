@@ -17,9 +17,13 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+/* .title{
+  background-color: yellow;
+} */
 
 .wrapper {
   display: flex;
+  height:100vh;
 }
 .container {
   max-width: 960px;
