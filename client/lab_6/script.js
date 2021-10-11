@@ -7,7 +7,7 @@ async function windowFunctions() {
   
     function findMatches(wordToMatch, Food) {
       return Food.filter((place) => {
-      // here we need to figure out if category or zip matches what was searched
+          //Find our search term
         const regex = new RegExp(wordToMatch, 'gi');
         return place.category.match(regex) || place.name.match(regex);
       });
