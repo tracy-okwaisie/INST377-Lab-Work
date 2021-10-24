@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
+      ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
+    margin: 10px;
+  }
+  
+  .title {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .search {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  #mapid {
+    height: 340px;
+  }
+  
+  .columns{
+    flex-wrap: wrap;
+  }
+
+  h1{
+    font-size:larger;
+    font-weight: bold;
+  }
+  .name{
+      display:block;
+      background-color:#00d1b2;
+
+  }
+  .address{
+    display:block;
+    background-color:#00d1b2;
+
+}
